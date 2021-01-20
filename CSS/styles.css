@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background: #e5e5e5;
+}
+
+.logo-word {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.firts-blue-letter {
+  color: #2196f3;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.navigation-link {
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #2196f3;
+}
+.mail-link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.phone-link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.phone-link-header:hover,
+.phone-link-header:focus {
+  color: #2196f3;
+}
+.mail-link-header:hover,
+.mail-link-header:focus {
+  color: #2196f3;
+}
+
+.first-background {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+
+.text-hero {
+  position: absolute; /*на первое время*/
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.34;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn-hero {
+  position: absolute; /*На первое время*/
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 875;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.name-of-first-headline {
+  display: none;
+}
+
+.firts-headline {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.pgf-list-headline {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  color: #757575;
+}
