@@ -3,7 +3,6 @@ body {
   color: #212121;
   background: #e5e5e5;
 }
-
 .logo-word {
   font-family: Raleway;
   font-style: normal;
@@ -13,12 +12,11 @@ body {
   letter-spacing: 0.03em;
   color: #000;
 }
-
 .firts-blue-letter {
   color: #2196f3;
 }
-
 li {
+  /* убираю подчеркивание и метки в списках */
   list-style-type: none;
 }
 a {
@@ -30,7 +28,6 @@ a {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-
 .navigation-link {
   color: #212121;
 }
@@ -52,6 +49,9 @@ a {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.phone-link-header {
+  color: #757575;
+}
 .phone-link-header:hover,
 .phone-link-header:focus {
   color: #2196f3;
@@ -60,7 +60,6 @@ a {
 .mail-link-header:focus {
   color: #2196f3;
 }
-
 .first-background {
   width: 1600px;
   height: 600px;
@@ -68,47 +67,44 @@ a {
   top: 80px;
   background: #2f303a;
 }
-
 .text-hero {
-  position: absolute; /*на первое время*/
+  /* - Для 3-го ДЗ пока закоментирую
+  position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
-  top: 280px;
+  top: 280px; */
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.34;
-  text-align: center;
+  /* text-align: center;  -Для 3-го ДЗ пока закоментирую положение */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .btn-hero {
-  position: absolute; /*На первое время*/
+  /* -Для 3-го ДЗ пока закоментирую положение
+  position: absolute; 
   width: 200px;
   height: 50px;
   left: 700px;
-  top: 430px;
+  top: 430px; */
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 875;
-
   letter-spacing: 0.06em;
-
   color: #ffffff;
 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 .name-of-first-headline {
   display: none;
 }
-
 .firts-headline {
   font-weight: bold;
   font-size: 14px;
@@ -116,11 +112,84 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .pgf-list-headline {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
-
+  color: #757575;
+}
+.what-we-doing {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  /* text-align: center; -Для 3-го ДЗ*/
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+.logo-word-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.addres-company {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.mail-link-footer,
+.phone-link-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-link-footer:hover,
+.mail-link-footer:focus {
+  color: #2196f3;
+}
+.phone-link-footer:hover,
+.phone-link-footer:focus {
+  color: #2196f3;
+}
+.our-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  /* text-align: center; -Для 3-го ДЗ */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.each-of-our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  /* text-align: center; -Для 3-й ДЗ*/
+  letter-spacing: 0.03em;
+  color: #a12121;
+}
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  /* text-align: center; - Для 3-го ДЗ*/
+  letter-spacing: 0.03em;
   color: #757575;
 }
