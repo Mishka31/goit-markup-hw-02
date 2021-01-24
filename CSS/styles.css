@@ -94,7 +94,7 @@ a {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
 
@@ -183,7 +183,7 @@ a {
   line-height: 1.187;
   /* text-align: center; -Для 3-й ДЗ*/
   letter-spacing: 0.03em;
-  color: #a12121;
+  color: #212121;
 }
 .profession {
   font-weight: 400;
