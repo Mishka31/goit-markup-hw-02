@@ -23,12 +23,11 @@ body {
   color: var(--mostly-used-color);
   background: #ffffff;
 }
-
 .container {
   margin-left: auto;
   margin-right: auto;
   padding: 0px 15px;
-  width: 1170px;
+  width: 1200px;
   /* background-color: #ff6f6fd0; */
   display: flex;
 }
@@ -41,7 +40,7 @@ body {
   letter-spacing: 0.03em;
   color: #000;
   margin-top: 24px;
-  margin-left: 25px;
+  margin-bottom: 25px;
 }
 .firts-blue-letter {
   color: var(--first-blue-word);
@@ -118,9 +117,10 @@ a {
   background: var(--hero-footer-background);
   text-align: center;
 }
-.text-hero {
+.hero-content {
   padding-top: 200px;
-  /* padding-bottom: 280px; */
+}
+.text-hero {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 454px;
@@ -138,12 +138,16 @@ a {
 }
 
 .btn-hero {
+  margin-top: 30px;
+  border: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--claer-white);
-  margin-bottom: ;
 
   background: var(--navigation-link-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -152,7 +156,24 @@ a {
 .name-of-first-headline {
   display: none;
 }
+.block-items {
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block-cards {
+  width: 270px;
+  height: 101px;
+  /* outline: 2px solid red; */
+}
 .firts-headline {
+  margin: 0px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.143;
@@ -160,23 +181,36 @@ a {
   text-transform: uppercase;
 }
 .pgf-list-headline {
+  margin: 0px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   color: var(--paragraph-text);
 }
+.blocks-of-competence {
+  margin-top: 94px;
+}
 .what-we-doing {
+  margin: 0px;
+  margin-top: 94px;
+  margin-bottom: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  /* text-align: center; -Для 3-го ДЗ*/
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
 }
 .what-we-doing-img {
+  padding: 0px;
+  width: 1200px;
   display: flex;
+  justify-content: space-between;
+}
+.img-items-wwd {
+  height: 294px;
 }
 .footer {
   width: 1600px;
